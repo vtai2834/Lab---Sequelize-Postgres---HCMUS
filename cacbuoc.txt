@@ -1,0 +1,2 @@
+node db.js
+sequelize db:seed:all
