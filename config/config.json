@@ -1,10 +1,6 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "123456",
-    "database": "sequelize_exercise",
-    "host": "127.0.0.1",
-    "port": 5432,
+    "use_env_variable": "DATABASE_URL",
     "dialect": "postgres"
   },
   "test": {
@@ -15,10 +11,11 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
+    "username": "postgres",
+    "password": "123456",
+    "database": "sequelize_exercise",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "port": 5432,
+    "dialect": "postgres"
   }
 }
